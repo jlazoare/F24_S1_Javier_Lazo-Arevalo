@@ -13,10 +13,10 @@ public class StringFunctions {
     private static final char SPACE = ' ';
 
     public static final String reverseWithStringConcat(String string) {
+        //null checker
         if (string.equals(null))
         {
             return String string;
-            //bdfjsndfj
         }
         String output = new String();
         for (int i = (string.length() - 1); i >= 0; i--) {
@@ -26,6 +26,7 @@ public class StringFunctions {
     }
 
     public static final String reverseWithStringBuilder(String string) {
+        //null checker
         if (string.equals(null))
         {
             return String string;
